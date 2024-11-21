@@ -6,7 +6,7 @@ metadata:
 subjects:
   - kind: {{ .Values.roleBindingSubject.kind }}
     name: {{ .Values.roleBindingSubject.name }}
-    apiGroup: rbac.authorization.k8s.io
+    apiGroup: ""
 roleRef:
   kind: Role
   name: {{ .Values.roleName }}

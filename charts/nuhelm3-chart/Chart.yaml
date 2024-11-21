@@ -4,5 +4,5 @@ annotations:
 apiVersion: v2
 name: nuhelm3-chart
 description: A Helm chart to create a Role and RoleBinding to view Secrets in Kubernetes
-version: 7.0.0
+version: 8.0.0
 appVersion: "1.0"
